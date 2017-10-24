@@ -13,7 +13,7 @@ First, you need to flash your Jetson TX2 module with L4T 28.1 on the dev kit car
   * Put Jetson TX2 Dev Kit in Force Recovery Mode by pressing "RST" button while holding down "REC" button
   * Once the flashing is done, it will boot up in Ubuntu desktop
 
-Then, you use this script to apply Avermedia patch.
+Then, you use this script to apply Auvidea patch.
 
     $ cd ~
     $ git clone https://github.com/chitoku/setup-TX2-for-J120
@@ -25,8 +25,7 @@ You can use [Tab] key for auto-completion.
  
     Enter path to JetPack binary (JetPack-L4T-X.X-linux-x64.run): 
 
-Once you supply the path, it will then find the "Li
-nux_for_Tegra_tx2" directory for flashing that has been setup up JetPack.
+Once you supply the path, it will then find the "Linux_for_Tegra_tx2" directory for flashing that has been setup up JetPack.
 
 It will copy and patch necessary files. 
  
